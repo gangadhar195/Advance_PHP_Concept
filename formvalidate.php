@@ -1,6 +1,4 @@
-<?php
 
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,18 +15,18 @@
     <script type="text/javascript" language="javascript">
        function chekusername(){
         if(document.frm.uname.value == ""){
-            alert("Username Does not Empty")
+            alert("Username Does not Empty");
             return false;
         }
        }
        function chekpass(){
         if(document.frm.pass.value == ""){
-            alert("Password Does not Empty")
+            alert("Password Does not Empty");
             return false;
 
         }
-        if(document.frm.pass.value.lenght<3 || document.frm.pass.value.lenght>8){
-            alert("Password Shoud at list 3 charecter")
+        if(document.frm.pass.value.length<3 || document.frm.pass.value.length>8){
+            alert("Password Shoud at list 3 charecter");
             return false;
 
         }
@@ -38,10 +36,25 @@
         if((document.frm.gender[0].checked ==false) &&
         (document.frm.gender[1].checked == false)
     ){
-        alert("please choose your gender")
+        alert("please choose your gender");
+        return false;
     }
 
         
+    }
+    function chekhobby(){
+        if((document.frm.chk[0].checked == false) &&
+        (document.frm.chk[1].checked == false)){
+            alert("please choose your hobby");
+            return false;
+        }
+    }
+
+    function checkcountry(){
+        if(document.frm.country.selectIndex==0){
+            alert("please select country");
+            return false;
+        }
     }
 
     </script>
@@ -94,7 +107,7 @@
                     </td>
                     <td>
                         <label for="country">Choose a country:</label>
-                        <select name="country" id="country">
+                        <select name="country" id="country" onblur="checkcountry();">
                             <option value="india" name="con">India</option>
                             <option value="us" name="con">US</option>
                             <option value="uk" name="con">UK</option>
