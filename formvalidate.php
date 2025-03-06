@@ -8,8 +8,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .from{
+       .form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+       }
+        .main{
+            margin-top: 30px;
             border: 1px solid black;
+        background-color: black;
+        color:white;
+        padding: 20px;
+        }
+        .btn{
+            align-items: center;
+            text-align: center;
+            padding: 4px;
         }
     </style>
     <script type="text/javascript" language="javascript">
@@ -61,9 +76,9 @@
 </head>
 
 <body>
-    <div class="from">
+    <div class="form">
         <form method="post" enctype="multipart/form-data" name="frm">
-            <table>
+            <table class="main">
                 <tr>
                     <td>
                         Username
@@ -116,8 +131,8 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <input type="submit" name="submit" value="Submit"/>
+                    <td class="btn" colspan="2">
+                        <input  type="submit" name="submit" value="Submit"/>
                     </td>
                 </tr>
             </table>
