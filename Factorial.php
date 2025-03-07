@@ -1,5 +1,13 @@
 <?php
-
+if(isset($_REQUEST['submit']))
+{
+    $n = $_REQUEST['n'];
+    $fact = 1;
+    for($i = 2;$i<=$n;$i++){
+        $fact *= $i; 
+    }
+    echo "Factorial of give ".$n." is : ".$fact;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
