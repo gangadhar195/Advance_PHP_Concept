@@ -6,7 +6,16 @@ if(isset($_REQUEST['submit']))
     for($i = 2;$i<=$n;$i++){
         $fact *= $i; 
     }
-    echo "Factorial of give ".$n." is : ".$fact;
+    echo "Factorial of give ".$n." is : ".$fact ."<br>";
+    $n1=0;
+    $n2=1;
+    echo"Fibonacci Series of ".$n.": ";
+    for($i = 0;$i<$n;$i++){
+        echo" ".$n1;
+        $n3=$n1+$n2;
+        $n1=$n2;
+        $n2=$n3;
+    }
 }
 ?>
 <!DOCTYPE html>
