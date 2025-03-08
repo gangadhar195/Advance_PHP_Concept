@@ -39,7 +39,7 @@
             <table>
                 <tr>
                     <td>
-                        Enter No :
+                        Enter No for Factorial and Fibonacci :
                     </td>
                     <td>
                         <input type="text" name="n" />
