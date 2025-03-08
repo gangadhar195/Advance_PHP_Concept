@@ -10,7 +10,8 @@
         td {
             border: 1px solid black;
         }
-        table{
+
+        table {
             margin-bottom: 20px;
         }
 
@@ -24,6 +25,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+        .output{
+            background-color: black;
+            color: white;
         }
     </style>
 </head>
@@ -53,17 +58,18 @@
                 for ($i = 2; $i <= $n; $i++) {
                     $fact *= $i;
                 }
-                ?>
-                <strong>
+            ?>
+                <strong class="output">
                     <?php
-                  echo "Factorial of No " . $n . " is : " . $fact . "<br>";
-                    
+                    echo "Factorial of No " . $n . " is : " . $fact . "<br>";
+                    echo "Fibonacci Series No " . $n . " : ";
+
+
                     ?>
                 </strong>
-                <?php
+            <?php
                 $n1 = 0;
                 $n2 = 1;
-                echo "Fibonacci Series No " . $n . " : ";
                 for ($i = 0; $i < $n; $i++) {
                     echo " " . $n1;
                     $n3 = $n1 + $n2;
