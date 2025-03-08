@@ -64,7 +64,6 @@
                     echo "Factorial of No " . $n . " is : " . $fact . "<br>";
                     echo "Fibonacci Series No " . $n . " : ";
 
-
                     ?>
                 </strong>
             <?php
