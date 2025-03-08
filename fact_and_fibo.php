@@ -23,7 +23,7 @@ if(isset($_REQUEST['submit']))
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Factorial No </title>
+    <title>Factorial and Fibonacci Program </title>
     <style>
         table , td{
             border: 1px solid black;
