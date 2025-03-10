@@ -66,13 +66,13 @@
                 $n1 = $_REQUEST['n1'];
                 $n2 = $_REQUEST['n2'];
             ?>
-                <li>
+                <p>
                     <?php
                     echo " No1 : " . $n1 . "<br>";
                     echo "No2 : " . $n2;
 
                     ?>
-                </li>
+                </p>
 
             <?php
                 $n3 = $n1;
@@ -82,26 +82,39 @@
             ?>
 
             <h2>Swape of No Using Third No : </h2>
-            <li>
+            <p>
                 <?php
                 echo "Swape of No1 : " . $n1 . "<br>";
                 echo "Swape of No2 : " . $n2;
 
                 ?>
-            </li>
+            </p>
             <h2>Swape of No Without Using Third No : </h2>
             <?php
             $n1 = $n1 + $n2;
             $n2 = $n1 - $n2;
             $n1 = $n1 - $n2;
             ?>
-            <li>
+            <p>
                 <?php
                 echo "Swape of No1 : " . $n2 . "<br>";
                 echo "Swape of No2 : " . $n1;
 
                 ?>
-            </li>
+            </p>
+            <h2>Swape of No Using XOR : </h2>
+            <?php
+            $n1 = $n1 ^ $n2;
+            $n2 = $n1 ^ $n2;
+            $n1 = $n1 ^ $n2;
+            ?>
+            <p>
+                <?php
+                echo "Swape of No1 : " . $n1 . "<br>";
+                echo "Swape of No2 : " . $n2;
+
+                ?>
+            </p>
         </form>
     </div>
 </body>
