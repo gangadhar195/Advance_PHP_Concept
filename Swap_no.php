@@ -60,6 +60,13 @@
                     </td>
                 </tr>
             </table>
+            <?php
+            if (isset($_REQUEST['submit'])) {
+                $n1 = $_REQUEST['n1'];
+                $n2 = $_REQUEST['n2'];
+
+                
+            ?>
         </form>
     </div>
 </body>
