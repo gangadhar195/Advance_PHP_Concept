@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Swape No </title>
+    <title>Swape Two No </title>
     <style>
         table,
         td {
