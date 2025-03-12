@@ -6,6 +6,32 @@
     <title>Pratics
 
     </title>
+    <style>
+        table,
+        td {
+            border: 1px solid black;
+        }
+
+        table {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            align-items: center;
+            text-align: center;
+            padding: 4px;
+        }
+
+        .form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .output{
+            background-color: black;
+            color: yellow;
+        }
+    </style>
 </head>
 <body>
     <div class="form">
