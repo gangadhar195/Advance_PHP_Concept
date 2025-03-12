@@ -50,6 +50,7 @@
                         <input type="submit" name="submit" value="submit" />
                     </td>
                 </tr>
+                
             </table>
             <?php
             if (isset($_REQUEST['submit'])) {
