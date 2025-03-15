@@ -8,6 +8,24 @@
 <body>
     <div class="main">
         <h1>Hello World</h1>
+        <form>
+        <table>
+                <tr>
+                    <td>
+                        Enter No for Factorial and Fibonacci :
+                    </td>
+                    <td>
+                        <input type="text" name="n" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="btn" colspan="2">
+                        <input type="submit" name="submit" value="submit" />
+                    </td>
+                </tr>
+                
+            </table>
+        </form>
     </div>
 </body>
 </html>
