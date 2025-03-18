@@ -1,7 +1,7 @@
 <?php
     if(isset($_REQUEST['submit']))
     {
-        
+        $n = $_REQUEST['n'];
     }
 ?>
 
